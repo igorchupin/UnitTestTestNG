@@ -1,21 +1,21 @@
-<suite name = "Exclude Methods">
+<suite name="Exclude Methods">
 
-    <test name = "Exclude Methods">
+    <test name="Exclude Methods">
         <groups>
             <run>
                 <classes>
-                    <class name = "parser.JsonParserTest" >
+                    <class name="parser.JsonParserTest">
                         <methods>
-                            <include name = "writeToFileNullName" />
-                            <include name = "readFromEmptyFile" />
+                            <include name="writeToFileNullName"/>
+                            <include name="readFromEmptyFile"/>
                         </methods>
                     </class>
-                    <class name = "shop.VirtualItemTest" />
-                    <class name = "shop.RealItemTest" />
-                    <class name = "shop.CartTest" />
-                    <class name = "parser.JsonParserFromXMLParametresTest">
+                    <class name="shop.VirtualItemTest"/>
+                    <class name="shop.RealItemTest"/>
+                    <class name="shop.CartTest"/>
+                    <class name="parser.JsonParserFromXMLParametresTest">
                         <methods>
-                            <exclude name="testWithValueSource" />
+                            <exclude name="testWithValueSource"/>
                         </methods>
                     </class>
                 </classes>

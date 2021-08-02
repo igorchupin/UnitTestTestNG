@@ -33,6 +33,14 @@
             <version>7.3.0</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>io.github.hakky54</groupId>
+            <artifactId>consolecaptor</artifactId>
+            <version>1.0.0</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
 
