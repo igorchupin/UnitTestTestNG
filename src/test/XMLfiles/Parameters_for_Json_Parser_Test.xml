@@ -1,0 +1,15 @@
+<suite name="Parameters for Json Parser">
+    <test name="Json Parser from xml test">
+
+        <parameter name="cartName" value="cart_name"/>
+        <parameter name="pathToFolder" value="src/main/resources/"/>
+        <parameter name="message" value="Oops something wrong"/>
+
+        <classes>
+            <class name="parser.JsonParserFromXMLParametresTest"/>
+            <methods>
+                <include name="testWithValueSource"/>
+            </methods>
+        </classes>
+    </test>
+</suite>

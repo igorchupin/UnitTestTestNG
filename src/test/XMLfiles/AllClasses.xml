@@ -1,0 +1,10 @@
+<suite name="All Tests">
+    <test name="All tests">
+        <classes>
+            <class name="parser.JsonParserTest"/>
+            <class name="shop.CartTest"/>
+            <class name="shop.RealItemTest"/>
+            <class name="shop.VirtualItemTest"/>
+        </classes>
+    </test>
+</suite>

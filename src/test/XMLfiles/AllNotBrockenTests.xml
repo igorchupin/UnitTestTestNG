@@ -1,0 +1,28 @@
+<suite name="All not Broken tests">
+    <test name="Not Broken">
+        <groups>
+            <run>
+                <include name="Before"/>
+                <include name="After"/>
+
+                <include name="Smoke"/>
+                <include name="Extended"/>
+                <include name="Critical Path"/>
+
+                <exclude name="Broken"/>>
+
+            </run>
+        </groups>
+
+
+        <classes>
+            <class name="parser.JsonParserTest"/>
+            <class name="shop.VirtualItemTest"/>
+            <class name="shop.RealItemTest"/>
+            <class name="shop.CartTest"/>
+            <class name="parser.JsonParserFromXMLParametresTest"/>
+        </classes>
+    </test>
+</suite>
+
+
